@@ -1,0 +1,26 @@
+{
+  "name": "MSTP-MCP",
+  "version": "1.0.0",
+  "description": "Model Server Transport Protocol - Model Context Protocol Implementation",
+  "author": "Siddhartha Mani",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Siddharthablog/MSTPMCP.git"
+  },
+  "keywords": [
+    "model-context-protocol",
+    "mcp",
+    "model-server",
+    "transport-protocol"
+  ],
+  "main": "mstp-mcp-server/main.py",
+  "scripts": {
+    "start": "python -m mstp_mcp_server.main",
+    "test": "pytest tests/",
+    "build": "python setup.py build"
+  },
+  "dependencies": {
+    "python": ">=3.8"
+  }
+}
